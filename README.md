@@ -3,6 +3,12 @@ React debounce hooks based on state changed.
 
 ## [Live Preview / Demo In Here](https://bakunya-debounce-hooks.netlify.app)
 
+## Installation
+
+```bash
+npm i @bakunya/debounce-hooks
+
+```
 
 ## Basic Usage
 
