@@ -1,4 +1,4 @@
-import useDebounce from "debounce-hooks"
+import useDebounce from "@bakunya/debounce-hooks"
 import { useCallback, useState } from "react"
 
 const App = () => {
