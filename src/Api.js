@@ -1,42 +1,7 @@
-# Debounce Hooks
-React debounce hooks based on state changed.
-
-## [Live Preview / Demo In Here](https://bakunya-debounce-hooks.netlify.app)
-
-
-## Basic Usage
-
-### Note
-**debounceFunction must be function that wrapped on useCallback. Cause every dependencies changed on useCallback (rerender function), it will be trigger debounce-hooks to running debounceFunction**
-
-```jsx
-const [value, setValue] = useState('bakunya')
-
-useDebounce({
-    // timeout count.
-    timeout: 1000,
-    
-    // function that wrapped on useCallback hooks
-    debounceFunction: useCallback(async () => {
-    
-        // value will be print after value state not change in 1000ms/1s
-        console.log(value)
-        
-    }, [ value ])
-})
-
-const handleChange = useCallback((e) => {
-    setValue(e.target.value)
-}, [setValue])
-```
-
-## Fetch API Examples
-
-```jsx
 import useDebounce from "debounce-hooks"
 import { useCallback, useState } from "react"
 
-const App = () => {
+const Api = () => {
     const [api, setApi] = useState('Miku-chan')
     const [value, setValue] = useState('0')
     const [error, setError] = useState('')
@@ -79,11 +44,4 @@ const App = () => {
     )
 }
   
-export default App
-```
-
-## License
-This project under MIT License.
-
-## Support Developer
-**You can support developer in [Here](https://trakteer.id/bakunya/tip). Thank you.**
+export default Api

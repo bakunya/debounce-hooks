@@ -1,0 +1,26 @@
+{
+  "name": "@bakunya/debounce-hooks",
+  "version": "0.1.0",
+  "description": "Debounce hooks based on state changed.",
+  "author": "bakunya",
+  "license": "MIT",
+  "homepage": "https://github.com/bakunya/debounce-hooks#readme",
+  "bugs": {
+    "url": "https://github.com/bakunya/debounce-hooks/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakunya/debounce-hooks.git"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "keywords": [
+    "react",
+    "react-hooks",
+    "debounce",
+    "useDebounce",
+    "custom hooks"
+  ]
+}
