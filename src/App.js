@@ -20,7 +20,7 @@ const App = () => {
                 <a href="https://trakteer.id/bakunya/tip">Support me on Trakteer</a>
             </h3>
             <h3>
-                <a href="https://raw.githubusercontent.com/bakunya/debounce-hooks">Github repository</a>
+                <a href="https://github.com/bakunya/debounce-hooks">Github repository</a>
             </h3>
         </div>
     )
